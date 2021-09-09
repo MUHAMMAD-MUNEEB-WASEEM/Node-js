@@ -5,5 +5,9 @@ function log(message){
     console.log(message)
 }
 
-module.exports.log = log;
+// module.exports.log = log;
 //or module.export.log = name-of-your-choice-to-be-used-in-other-file;
+
+//exporting function directly
+
+module.exports = log;
